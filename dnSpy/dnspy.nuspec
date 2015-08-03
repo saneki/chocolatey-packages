@@ -5,7 +5,7 @@
     <id>dnspy</id>
     <title>dnSpy</title>
     <version>1.1.2.1</version>
-	<!-- Todo: Add other contributors by GitHub username? -->
+    <!-- Todo: Add other contributors by GitHub username? -->
     <authors>0xd4d</authors>
     <owners>saneki</owners>
     <summary>.NET assembly editor, decompiler, and debugger</summary>
@@ -18,9 +18,9 @@ Features
 * Debugger
 * Tabs and tab groups
 * Themes (blue, dark, light and high contrast)</description>
-	<licenseUrl>https://raw.githubusercontent.com/0xd4d/dnSpy/master/COPYING</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/0xd4d/dnSpy/master/COPYING</licenseUrl>
     <projectUrl>https://github.com/0xd4d/dnSpy</projectUrl>
-	<iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/icons/dnspy.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/icons/dnspy.png</iconUrl>
     <tags>dnspy assembly cil debugger decompiler dnlib dotnet editor il ilspy msil net .net</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
