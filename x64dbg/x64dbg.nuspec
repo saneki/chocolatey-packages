@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ԏԠdoesnӴ appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>x64dbg</id>
+    <title>x64dbg</title>
+    <!-- Releases are currently named like: snapshot_2015-07-14_02-09.7z
+         Use 0.0.0.DATE format for now -->
+    <version>0.0.0.20150714</version>
+    <!-- Todo: Add other contributors by GitHub username? -->
+    <authors>mrexodia, Nukem9</authors>
+    <owners>saneki</owners>
+    <summary>An open-source x64/x32 debugger for Windows</summary>
+    <description>*x64dbg* is an open-source x32/x64 debugger for Windows.
+
+## Features
+- Open-source
+- Intuitive and familiar, yet new user interface
+- C-like expression parser
+- Full-featured debugging of DLL and EXE files (TitanEngine)
+- IDA-like sidebar with jump arrows
+- IDA-like instruction token highlighter (highlight registers, etc.)
+- Memory map
+- Symbol view
+- Thread view
+- Source code view
+- Content-sensitive register view
+- Fully customizable color scheme
+- Dynamically recognize modules and strings
+- Import reconstructor integrated (Scylla)
+- Fast disassembler (BeaEngine)
+- User database (JSON) for comments, labels, bookmarks, etc.
+- Plugin support with growing API
+- Extendable, debuggable scripting language for automation
+- Multi-datatype memory dump
+- Basic debug symbol (PDB) support
+- Dynamic stack view
+- Built-in assembler (XEDParse)
+- Executable patching
+- Yara Pattern Matching</description>
+    <projectUrl>https://github.com/x64dbg/x64dbg</projectUrl>
+    <tags>x64dbg x32 x64 debugger disassembler windows</tags>
+    <licenseUrl>https://raw.githubusercontent.com/x64dbg/x64dbg/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/icons/x64dbg.png</iconUrl>
+    <dependencies>
+      <!-- Chocolatey complains that msvisualcplusplus2013-redist does not exist
+           as a package (although it does), leaving it out for now -->
+      <!-- <dependency id="msvisualcplusplus2013-redist" /> -->
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
