@@ -4,7 +4,8 @@
   <metadata>
     <id>de4dot</id>
     <title>de4dot</title>
-    <version>TODO</version>
+    <!-- Commit: dfbbfc3f, https://ci.appveyor.com/project/0xd4d/de4dot/build/x.x.2/artifacts -->
+    <version>0.0.0.2</version>
     <authors>0xd4d</authors>
     <owners>saneki</owners>
     <summary>.NET deobfuscator and unpacker</summary>
@@ -15,7 +16,7 @@ restored (eg. string encryption), but symbol renaming is impossible to restore
 since the original names aren't (usually) part of the obfuscated assembly.</description>
     <licenseUrl>https://raw.githubusercontent.com/0xd4d/de4dot/master/COPYING</licenseUrl>
     <projectUrl>https://github.com/0xd4d/de4dot</projectUrl>
-    <iconUrl></iconUrl>
+    <!-- <iconUrl></iconUrl> -->
     <tags>cil deobfuscator dnlib dotnet il msil net .net unpacker</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
