@@ -14,3 +14,15 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -Url "$url" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType"
+
+# Try to generate shim file
+if ($env:JAVA_HOME)
+{
+	Generate-BinFile -Name "$packageName" `
+	                 -Path "$env:JAVA_HOME\bin\java.exe" `
+	                 -Command ('"-jar {0}"' -f $fileFullPath)
+}
+else
+{
+	Write-Host 'Unable to generate shim, JAVA_HOME environment variable not set'
+}
