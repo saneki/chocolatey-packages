@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “O” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>apktool</id>
+    <title>apktool</title>
+    <version>2.0.1</version>
+    <!-- Todo: More authors? -->
+    <authors>iBotPeaches</authors>
+    <owners>saneki</owners>
+    <summary>A tool for reverse engineering Android apk files</summary>
+    <description>It is a tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes possible to debug smali code step by step. Also it makes working with app easier because of project-like files structure and automation of some repetitive tasks like building apk, etc.
+
+It is NOT intended for piracy and other non-legal uses. It could be used for localizing, adding some features or support for custom platforms and other GOOD purposes. Just try to be fair with authors of an app, that you use and probably like.</description>
+    <licenseUrl>https://raw.githubusercontent.com/iBotPeaches/Apktool/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/iBotPeaches/Apktool</projectUrl>
+    <tags>apktool android apk tool</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <!-- Actually depends on Java 1.7, unsure how Java versioning is done
+           so putting latest JRE for now -->
+      <dependency id="jre8" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
