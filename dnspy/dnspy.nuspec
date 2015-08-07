@@ -20,7 +20,7 @@ Features
 * Themes (blue, dark, light and high contrast)</description>
     <licenseUrl>https://raw.githubusercontent.com/0xd4d/dnSpy/master/COPYING</licenseUrl>
     <projectUrl>https://github.com/0xd4d/dnSpy</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/dnSpy/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/dnspy/icon.png</iconUrl>
     <tags>dnspy assembly cil debugger decompiler dnlib dotnet editor il ilspy msil net .net</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
