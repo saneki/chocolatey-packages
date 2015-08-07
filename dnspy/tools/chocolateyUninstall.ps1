@@ -1,4 +1,4 @@
-function Remove-CommonProgramsDirectory($path)
+﻿function Remove-CommonProgramsDirectory($path)
 {
 	if (!$path)
 	{
