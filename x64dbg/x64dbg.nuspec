@@ -42,7 +42,7 @@
     <tags>x64dbg x32 x64 debugger disassembler windows</tags>
     <licenseUrl>https://raw.githubusercontent.com/x64dbg/x64dbg/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/icons/x64dbg.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/x64dbg/icon.png</iconUrl>
     <dependencies>
       <!-- Chocolatey complains that msvisualcplusplus2013-redist does not exist
            as a package (although it does), leaving it out for now -->
