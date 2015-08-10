@@ -1,8 +1,8 @@
 ﻿$packageName = 'dnspy'
-$version = '1.1.2.1'
+$version = '1.2.2.1'
 $url = 'https://github.com/0xd4d/dnSpy/releases/download/v{0}/dnSpy-v{0}.zip' `
        -f $version
-$checksum = 'd6b1df754fcd640fb526ea2875caf6fe9a4d1199'
+$checksum = '256d6558410ff3a4a9b5fdaf9348fd4b2886e7f2'
 $checksumType = 'sha1'
 $unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
