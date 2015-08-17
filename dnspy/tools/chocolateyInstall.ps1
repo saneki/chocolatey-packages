@@ -2,7 +2,7 @@
 $version = '1.2.2.1'
 $url = 'https://github.com/0xd4d/dnSpy/releases/download/v{0}/dnSpy-v{0}.zip' `
        -f $version
-$checksum = '256d6558410ff3a4a9b5fdaf9348fd4b2886e7f2'
+$checksum = '6144a88e180b52b02cefad13ff0b46c3a3c2278b'
 $checksumType = 'sha1'
 $unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
