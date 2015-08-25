@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “O” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>toxy</id>
+    <title>Toxy</title>
+    <!-- Using job number as no actual versioning yet -->
+    <version>0.0.0.442</version>
+    <authors>Impyy</authors>
+    <owners>saneki</owners>
+    <summary>Metro-style tox client for Windows</summary>
+    <description>Metro-style Tox client for Windows. Tox is a free (as in freedom) Skype replacement.
+
+At this point, this client isn't feature-complete and is not ready for an official release. Some features may be missing or are partially broken. Updates will arrive in time.</description>
+    <licenseUrl>https://raw.githubusercontent.com/Impyy/Toxy/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Impyy/Toxy</projectUrl>
+    <!-- <iconUrl></iconUrl> -->
+    <tags>chat client tox</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+	  <dependency id="dotnet4.5" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
