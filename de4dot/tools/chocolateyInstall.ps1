@@ -1,8 +1,8 @@
 ﻿$packageName = 'de4dot'
-$buildId = '0k17rd8uyhsh937o'
+$buildId = 'k1noivvgb93ju9y6'
 $url = 'https://ci.appveyor.com/api/buildjobs/{0}/artifacts/de4dot.zip' `
        -f $buildId
-$checksum = '2bff89e1cb9e55108ec1499ce8cad1025f046238'
+$checksum = '67d2e6223084b910755d1cea55705ea253d9d3b2'
 $checksumType = 'sha1'
 $unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 

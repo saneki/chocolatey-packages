@@ -4,8 +4,8 @@
   <metadata>
     <id>de4dot</id>
     <title>de4dot</title>
-    <!-- Commit: dfbbfc3f, https://ci.appveyor.com/project/0xd4d/de4dot/build/x.x.2/artifacts -->
-    <version>0.0.0.2</version>
+    <!-- Current pseudo-versioning: 0.X.X.X (X.X.X = appveyor project build version) -->
+    <version>0.0.0.5</version>
     <authors>0xd4d</authors>
     <owners>saneki</owners>
     <summary>.NET deobfuscator and unpacker</summary>
