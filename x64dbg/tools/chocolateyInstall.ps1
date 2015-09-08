@@ -17,7 +17,7 @@ function Install-CommonProgramsShortcut($file, $path='')
 		return
 	}
 
-	$commonPrograms = [Environment]::GetFolderPath("CommonPrograms")
+	$commonPrograms = [Environment]::GetFolderPath([Environment+SpecialFolder]::Programs)
 	if (!$commonPrograms)
 	{
 		Write-Error 'Unable to install common programs shortcut, could not get CommonPrograms path'

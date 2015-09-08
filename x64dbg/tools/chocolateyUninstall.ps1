@@ -8,7 +8,7 @@ function Remove-CommonProgramsDirectory($path)
 		return
 	}
 
-	$commonPrograms = [Environment]::GetFolderPath("CommonPrograms")
+	$commonPrograms = [Environment]::GetFolderPath([Environment+SpecialFolder]::Programs)
 	if (!$commonPrograms)
 	{
 		Write-Error "Unable to remove common programs shortcut, could not get CommonPrograms path"
