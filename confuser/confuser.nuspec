@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “O” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>confuser</id>
+    <title>Confuser</title>
+    <version>1.9</version>
+    <authors>Ki</authors>
+    <owners>saneki</owners>
+    <summary>A protector/obfuscator for .NET</summary>
+    <description>Confuser is a protector/obfuscator for .NET, providing great security to .NET Applications.
+Confuser is not being actively maintained. Please use the successor [ConfuserEx](https://yck1509.github.io/ConfuserEx/) instead!
+
+Features
+--------
+* Anti debugger
+* Anti memory dumping
+* Anti decompiler
+* Prevent any tampering of the assemblies
+* Encrypt codes
+* Encrypt constants (i.e. numbers and strings)
+* Encrypt resources
+* Control flow obfuscation
+* External/Internal reference proxy
+* Renaming</description>
+    <licenseUrl>https://confuser.codeplex.com/license</licenseUrl>
+    <projectUrl>https://confuser.codeplex.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/confuser/icon.png</iconUrl>
+    <tags>cil confuser dnlib dotnet il msil net .net obfuscator packer protector</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="dotnet3.5" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
