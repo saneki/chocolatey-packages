@@ -1,9 +1,7 @@
 ﻿$packageName = 'dnspy'
-$version = '1.4.0.0'
+$version = '1.5.0.0'
 $url = 'https://github.com/0xd4d/dnSpy/releases/download/v{0}/dnSpy-{0}.zip' `
        -f $version
-$checksum = '602b233ca6f0de565904f9c49697d41066869cdf'
-$checksumType = 'sha1'
 $unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 function Install-CommonProgramsShortcut($file, $path='')
@@ -39,8 +37,6 @@ function Install-CommonProgramsShortcut($file, $path='')
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType" `
                              -UnzipLocation "$unzipLocation"
 
 # dnSpy currently has no installer executable, so install start menu
