@@ -1,9 +1,9 @@
 ﻿$packageName = 'x64dbg'
 $mirror = 'iweb'
-$snapshotDate = '2015-10-15_05-48'
+$snapshotDate = '2016-01-08_04-43'
 $url = 'http://{0}.dl.sourceforge.net/project/x64dbg/snapshots/snapshot_{1}.7z' `
        -f $mirror, $snapshotDate
-$checksum = '285ae523ccd6458fdb372ae601d79abbb254818e'
+$checksum = '817868ec8f67f24f546326b6a696ce6ca7746859'
 $checksumType = 'sha1'
 $unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 

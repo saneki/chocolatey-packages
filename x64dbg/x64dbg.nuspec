@@ -6,7 +6,7 @@
     <title>x64dbg</title>
     <!-- Releases are currently named like: snapshot_2015-07-14_02-09.7z
          Use 0.0.0.DATE format for now -->
-    <version>0.0.0.20151015</version>
+    <version>0.0.0.20160108</version>
     <!-- Todo: Add other contributors by GitHub username? -->
     <authors>mrexodia, Nukem9</authors>
     <owners>saneki</owners>
