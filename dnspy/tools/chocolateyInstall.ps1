@@ -1,6 +1,6 @@
 ﻿$packageName = 'dnspy'
-$version = '1.5.0.0'
-$url = 'https://github.com/0xd4d/dnSpy/releases/download/v{0}/dnSpy-{0}.zip' `
+$version = '3.0.0'
+$url = 'https://github.com/0xd4d/dnSpy/releases/download/v{0}/dnSpy.zip' `
        -f $version
 $unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
